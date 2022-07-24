@@ -86,7 +86,7 @@ border-radius: 50px;
 padding: 35px 40px;
 gap: 20px;
 
-width: 328px;
+max-width: 328px;
 height: 296px;
 z-index: 1;
 
@@ -591,4 +591,29 @@ margin-left: 320px;
 }
 .c{
 	margin-left: 40px;
+}
+@media (max-width: 1000px) {
+	.logo{
+		margin-left: 30px;
+	}
+
+	.nav__list, .nav__list--header{
+		display: none;
+	}
+	.nav__login, .nav__login--header{
+		display: none;
+	}
+	.header__img img{
+		width: 300px;
+	}
+	.back {
+		width: 350px;
+		height:380px;
+		margin:0 auto;	
+	}
+	.header__bottom{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
