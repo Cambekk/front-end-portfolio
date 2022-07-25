@@ -597,9 +597,6 @@ margin-left: 320px;
 		margin-left: 30px;
 	}
 
-	.nav__list, .nav__list--header{
-		display: none;
-	}
 	.nav__login, .nav__login--header{
 		display: none;
 	}
@@ -616,4 +613,74 @@ margin-left: 320px;
 		flex-direction: column;
 		align-items: center;
 	}
+	.learn_now{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.statistik{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.container{
+		padding-left: 30px;
+	}
+	.all{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.right img{
+		margin-left: -100px;
+		margin-top: -100px;
+	}
+	.section-header{
+		display: flex;
+		flex-direction: column;	
+		align-items: center;
+	}
+	.section-middle{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footeronetext{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.flexination{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.feedbacks{
+		margin: -60px 0;
+	}
+	.allpeoples{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.peopleone{
+		margin: 10px 0;
+	}
+	.footerbody{
+		display:none;
+	}
+	.content{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.mediaa{
+		margin:0 auto;
+	}
+
 }
