@@ -14,7 +14,7 @@
 				<nav class="header_nav">
 					<div class="header_nav_logo">
 						<a href="/">
-							<img src="./img/main-page/logo.png" alt="">
+							<img id="logooo" src="./img/main-page/logo.png" alt="">
 						</a>
 					</div>
 					<div class="nav_list nav_list--header">
@@ -26,7 +26,7 @@
 						</ul>
 					</div>
 					<div class="nav_login nav_login--header">
-						<div class="nav_login_number">+41 79 896 96 96</div>
+						<div class="nav_login_number"><a href="tel:+41 79 896 96 96">+41 79 896 96 96</a></div>
 						<select class="nav_login_languages">
 							<option class="eng">Eng</option>
 						</select>
@@ -90,7 +90,7 @@
 	</header>
 	<main>
 		<section>
-			<div class="aboutus">
+			<div class="aboutus unionone">
 				<div class="body_container"></div>
 					<div class="aboutus-header">
 						<h1 class="aboutus_title">About Us</h1>
@@ -112,7 +112,7 @@
 			</div>
 		</section>
 		<section>
-			<div class="our_services aboutus">
+			<div class="our_services aboutus uniontwo">
 				<div class="body_container">
 					<div class="our_services_header">
 						<h1 class="aboutus_title">Our Services</h1>
@@ -173,7 +173,7 @@
 			</div>
 		</section>
 		<section>
-			<div class="our-fleets">
+			<div class="our-fleets unionone">
 				<div class="body_container">
 					<div class="our-fleets-header">
 						<h1 class="aboutus_title">Our Fleets</h1>
@@ -203,7 +203,7 @@
 			</div>
 		</section>
 		<section>
-
+			<div class="header_container">
 			<div class="buttons">
 				<button id="prev"><img src="./img/main-page/arrow-left.svg"></button>
 				<button id="next"><img src="./img/main-page/arrow-right.svg"></button>
@@ -224,6 +224,7 @@
 		 
 		 
 			</div>
+		</div>
 		</section>
 		<section>
 			<div class="sponsors-body">
@@ -249,7 +250,7 @@
 			</div>
 		</section>
 		<section>
-			<div class="limogroup aboutus">
+			<div class="limogroup aboutus unionone">
 				<div class="body_container">
 					<div class="limogroup_header">
 						<h1 class="aboutus_title">Why Choose limogroup?</h1>
@@ -302,6 +303,141 @@
 				</div>
 			</div>
 		</section>
+		<section>
+			<div class="contactus aboutus unionfive">
+				<div class="body_container">
+					<div class="contactus_header">
+						<h1 class="aboutus_title">Contact us</h1>
+						<p class="aboutus_subtitle limogroup-subtitle">Perhaps you have any questions? Please write to us</p>
+					</div>
+				<div class="contactus-all-wrapper">
+					<div class="contactus-content">
+						<div class="contactus-content-wrapper">
+							<form id="survey-form">
+								<div class="form-group">
+									<input
+										type="text"
+										name="name"
+										id="name"
+										class="form-control"
+										placeholder="Name ..."
+										required
+									/>
+								</div>
+								<div class="form-group">
+									<input
+									type="email"
+									name="email"
+									id="email"
+									class="form-control"
+									placeholder="example@gmail.com"
+									required
+									/>
+								</div>
+								<div class="form-group">
+									<input
+									type="tel"
+									name="age"
+									id="tel"
+									class="form-control"
+									placeholder="+998 90 901  54 55"
+									required
+									/>
+								</div>
+								<div class="form-group">
+									<textarea
+									id="message"
+									class="input-textarea"
+									name="comment"
+									placeholder="Comment..."
+									required
+									></textarea>
+								</div>
+							
+						</div>
+						<div class="contactus-lower-wrapper">
+								
+								  <div class="form-group-lower">
+									<input type="checkbox" id="html" required/>
+									<label for="html">I agree to the Terms of Service and Privacy Policy.</label>
+								  </div>
+								<button type="submit" class="Submit">Submit Now</button>
+						</div>
+					</form>
+					</div>
+					<div class="contactus-img">
+						<img src="./img/main-page/home-uber-driver 1.png">
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+
+		<div class="footer_container">
+			<div class="footer-content">
+				<div class="footer-content-wrapper">
+					<div class="footer-content-wrapper-info">
+						<h1 class="footer-content-title">Subscribe our newsletter</h1>
+						<p class="footer-content-subtitle">Want to know about our offers first?</p>
+						<div class="form-group-footer">
+							
+								<input
+								type="email"
+								name="email"
+								id="email"
+								class="form-control-lower"
+								placeholder="example@gmail.com"
+								required
+								/>
+							<button type="submit" class="Subscribe">Subscribe</button>
+				
+						</div>
+					</div>
+					<div class="footer-logo">
+						<div class="limogroup-logo">
+							<a href="/"><img src="./img/main-page/Footer logo.png"></a>
+						</div>
+						<div class="footer-privacy">
+							<ul>
+								<li class="list-footer"><a href="/">Legal</a></li>
+								<li class="list-footer"><a href="/">Privacy Policy</a></li>
+								<li class="list-footer"><a href="/">Terms of Use</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="contacts">
+					<div class="phone">
+						<a href="tel:+998 90 901 54 55"><img src="./img/main-page/phone.svg">
+						<p class="phone-number">+998 90 901 54 55</a></p>
+					</div>
+					<div class="geolocation phone">
+						<div class="geolocation-img">
+							<a href="http://maps.google.com/?q=1200 ch. des Saules 19, 1800 Vevey, 
+							Switzerland"><img src="./img/main-page/Location.svg"></div>
+						<p class="location">ch. des Saules 19, 1800 Vevey, 
+							Switzerland</a></p>
+					</div>
+					<div class="email phone">
+						<a href = "mailto: info@limogroup.ch"><img src="./img/main-page/email.svg">
+						<p class="email-address">info@limogroup.ch</a></p>
+					</div>
+					<div class="timetable phone">
+						<img src="./img/main-page/Clock.svg">
+						<p class="time">Every Day Around the clock</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-lower">
+			
+			<p class="footer-lower-text">Copyright © 2022 The Limousine. All Rights Reserved.</p>
+		</div>
+		<a href="#logooo"><img  class="last-img" src="./img/main-page/Btn Top Scroll.svg"></a>
+	</footer>
+
 	<script src="./js/main.js"></script>
 </body>
 </html>
