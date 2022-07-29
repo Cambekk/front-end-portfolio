@@ -1,0 +1,87 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nova+Square&family=Red+Hat+Display:wght@400;600;700&display=swap');
+
+:root{
+    --main-text-color:#ffffff;
+    --secondary-text-color:#B6B6B6;
+    --third-text-color:#000000;
+    --main-bg-color:#1B1B1B;
+    --header-container-width:1716px;
+    --body-container-width:1400px;
+    
+}
+
+body {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    background-color:var(--main-bg-color);
+    color:var(--main-text-color)
+}
+a{
+    color:inherit;
+}
+header{
+    padding: 100px 61px;
+}
+main{
+    padding: 100px 61px;
+}
+.header_container{
+    max-width:var(--header-container-width);
+}
+.header_nav{
+    display: flex;
+    font-size: 18px;
+}
+.header_nav_logo{
+    width: 231px;
+    height: 29px;
+    margin-right: 431px;
+}
+.nav_list--header ul{
+    display: flex;
+    column-gap: 58px;
+}
+.nav_login{
+    display: flex;
+    margin-left: 175px;
+}
+.nav_login_languages{
+    margin-left: 30px;
+    margin-right: 29px;
+    margin-top: -12px;
+}
+.nav_login_button{
+    background: var(--main-text-color);
+    border-radius: 9px;
+    color: var(--third-text-color);
+    width: 168.09px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+}
+.header-body-title{
+    font-weight: 600;
+    font-size: 50px;
+
+}
+.header-body-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 16px;
+
+}
+
+.header-body-wrapper{
+    width: 1716px;
+    height: 360px;
+    margin-top: 49px;
+}
+.header-body-wrapper-content{
+    text-align: center;
+    margin-top: -230px;
+
+}

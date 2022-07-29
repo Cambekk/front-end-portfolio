@@ -96,6 +96,26 @@ main{
     top: 187px;
     position: absolute;
 }
+.page-two-header{
+    width: 1716px;
+    height: 360px;
+    margin-top: 49px;
+}
+.page-two-header-content{
+    text-align: center;
+    margin-top: -230px;
+
+}
+.page-two-header-content-title{
+    font-weight: 600;
+    font-size: 50px;
+}
+.page-two-header-content-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
 .header-body-button{
     font-weight: 600;
     font-size: 16px;
@@ -121,7 +141,7 @@ main{
     display: flex;
 }
 .lower-button1{
-    background: #272727;
+    background-color: #484848;
     border-radius: 11px 0px 0px 0px;
     width: 187.63px;
     height: 74px;
@@ -129,10 +149,11 @@ main{
     align-items: center;
     justify-content: center;
 }
+
 .lower-button2{
     width: 187.63px;
     height: 74px;
-    background-color: #484848;
+    background: #272727;
     border-radius: 0px 11px 0px 0px;
     display: flex;
     align-items: center;
@@ -177,7 +198,7 @@ main{
     font-weight: 600;
     font-size: 20px;
     margin-top: -15px;
-    margin-left: 140px;
+    margin-left: 1195px;
     color: var(--third-text-color);
     width: 193px;
     height: 82px;
@@ -187,6 +208,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    position:absolute;
 }
 .body_container{
     max-width:var(--body-container-width);

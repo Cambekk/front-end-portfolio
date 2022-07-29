@@ -171,5 +171,34 @@ const $$ = str => document.querySelectorAll(str);
     }
     app.carousel.init();
 })();
+// 
+const btn = document.getElementById('myH1');
+const btn1 = document.getElementById('myH2');
+function change_text(){
+    document.getElementById("title1").innerHTML = "Pick Up Address";
+    document.getElementById("title2").innerHTML = "Drop Off Address";
+    document.getElementById("subtitle1").innerHTML = "From: address, airport, hotel, ...";
+    document.getElementById("subtitle2").innerHTML = "From: address, airport, hotel, ...";
+    btn.style.background = '#272727';
+  btn1.style.background = '#484848';
 
+}
+function change_text2(){
+    document.getElementById("title1").innerHTML = "800km";
+    document.getElementById("title2").innerHTML = "800km";
+    document.getElementById("subtitle1").innerHTML = "From: address, airport, hotel, ...";
+    document.getElementById("subtitle2").innerHTML = "From: address, airport, hotel, ...";
+    btn1.style.background = '#272727';
+    btn.style.background = '#484848';
+}
+// const btn = document.getElementById('myH1');
+// const btn1 = document.getElementById('myH2');
+// btn1.addEventListener('click', function onClick() {
+//     btn1.style.background = '#272727';
+//     btn.style.background = '#484848';
+//   });
+// btn.addEventListener('click', function onClick(){
+//   btn.style.background = '#272727';
+//   btn1.style.background = '#484848';
+// });
 
